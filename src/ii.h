@@ -52,3 +52,30 @@
 #define ORCA_GRESET		0x4D
 #define ORCA_CVA		0x4E
 #define ORCA_CVB		0x4F
+
+// TELEX_O
+
+#define 	TO			0x60
+
+#define 	TO_TR		0x10
+#define 	TO_TOG		0x11
+#define 	TO_TIME		0x12
+#define 	TO_PULSE	0x13
+
+#define 	TO_CV		0x14
+#define 	TO_SLEW		0x15
+#define 	TO_SET		0x16
+#define 	TO_OFF		0x17
+
+#define		TO_POL		0x18
+#define		TO_KILL		0x19
+
+#define		TO_MIN		0x1A
+#define		TO_MAX		0x1B
+#define		TO_FREQ		0x1C
+#define		TO_PERIOD	0x1D
+#define		TO_CYCLE	0x1E
+#define		TO_RESET	0x1F
+#define		TO_WAVE		0x20
+#define		TO_SHAPE	0x21
+#define		TO_ENV		0x22
