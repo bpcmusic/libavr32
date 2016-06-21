@@ -39,6 +39,9 @@ typedef enum {
   kEventTrigger,
   kEventII,
 
+  // TELEXo
+  kEventTO,
+
   kEventMidiConnect,
   kEventMidiDisconnect,
   kEventMidiPacket,
