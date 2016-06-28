@@ -79,9 +79,8 @@ void i2c_master_tx(uint8_t addr, uint8_t *data, uint8_t length) {
 }
 
 
-void i2c_master_rx(uint8_t addr, uint8_t idx) {
+void i2c_master_rx(uint8_t addr, uint8_t idx, uint8_t *data, uint8_t length) {
   int status;
-  uint8_t d[3];
 
   packet.chip = addr;
   // TWI address/commands to issue to the other chip (node)
@@ -92,14 +91,14 @@ void i2c_master_rx(uint8_t addr, uint8_t idx) {
   // packet.addr_length = EEPROM_ADDR_LGT;
   packet.addr_length = 1;
   // Where to find the data to be written
-  packet.buffer = &d;
+  packet.buffer = data;
   // How many bytes do we want to write
-  packet.length = 2;
+  packet.length = length;
 
   status = twi_master_read(TWI, &packet);
 
-  print_dbg("\r\nii receive: ");
-  print_dbg_ulong(d[0]);
+  // print_dbg("\r\nii receive: ");
+  // print_dbg_ulong(data[0]);
 }
 
 

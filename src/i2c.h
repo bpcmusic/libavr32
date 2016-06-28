@@ -7,7 +7,7 @@
 #define DLE 27
 
 extern void i2c_master_tx(uint8_t, uint8_t *, uint8_t);
-extern void i2c_master_rx(uint8_t addr, uint8_t idx);
+extern void i2c_master_rx(uint8_t addr, uint8_t idx, uint8_t *, uint8_t);
 
 extern void twi_slave_rx( U8 u8_value );
 extern U8 twi_slave_tx( void );

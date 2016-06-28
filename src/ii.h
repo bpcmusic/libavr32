@@ -79,3 +79,7 @@
 #define		TO_WAVE		0x20
 #define		TO_SHAPE	0x21
 #define		TO_ENV		0x22
+
+// TELEXi
+
+#define 	TI			0x61
