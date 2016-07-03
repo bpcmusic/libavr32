@@ -89,5 +89,7 @@
 
 #define 	TI					0x61
 
-#define		TI_IN_QUANT			0x10
-#define		TI_PARAM_QUANT		0x11
+#define		TI_IN_QUANT			0x00
+#define		TI_IN_QUANT_MODE	0x01
+#define		TI_PARAM_QUANT		0x02
+#define		TI_PARAM_QUANT_MODE	0x03
