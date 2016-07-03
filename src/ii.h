@@ -55,21 +55,25 @@
 
 // TELEX_O
 
-#define 	TO			0x60
+#define 	TO					0x60
 
-#define 	TO_TR		0x10
-#define 	TO_TOG		0x11
-#define 	TO_TIME		0x12
-#define 	TO_PULSE	0x13
+#define 	TO_TR				0x10
+#define 	TO_TR_TOG			0x11
+#define 	TO_TR_TIME			0x12
+#define 	TO_TR_PULSE			0x13
 
-#define 	TO_CV		0x14
-#define 	TO_SLEW		0x15
-#define 	TO_SET		0x16
-#define 	TO_OFF		0x17
+#define 	TO_CV				0x14
+#define 	TO_CV_SLEW			0x15
+#define 	TO_CV_SET			0x16
+#define 	TO_CV_OFF			0x17
 
-#define		TO_POL		0x18
-#define		TO_KILL		0x19
+#define		TO_TR_POL			0x18
 
+#define		TO_KILL				0x19
+
+#define		TO_CV_QUANT			0x20
+
+/*
 #define		TO_MIN		0x1A
 #define		TO_MAX		0x1B
 #define		TO_FREQ		0x1C
@@ -79,7 +83,11 @@
 #define		TO_WAVE		0x20
 #define		TO_SHAPE	0x21
 #define		TO_ENV		0x22
+*/
 
 // TELEXi
 
-#define 	TI			0x61
+#define 	TI					0x61
+
+#define		TI_IN_QUANT			0x10
+#define		TI_PARAM_QUANT		0x11
