@@ -71,7 +71,7 @@
 
 #define		TO_KILL				0x19
 
-#define		TO_CV_QUANT			0x20
+#define		TO_CV_QT			0x20
 
 /*
 #define		TO_MIN		0x1A
@@ -89,7 +89,11 @@
 
 #define 	TI					0x61
 
-#define		TI_IN_QUANT			0x00
+#define		TI_IN_QT			0x00
 #define		TI_IN_QMODE			0x01
-#define		TI_PARAM_QUANT		0x02
+#define		TI_PARAM_QT			0x02
 #define		TI_PARAM_QMODE		0x03
+
+#define		TI_IN_CALIBRATE		0x04
+#define		TI_PARAM_CALIBRATE	0x05
+
