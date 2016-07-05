@@ -97,4 +97,5 @@
 
 #define		TI_IN_CALIBRATE		0x04
 #define		TI_PARAM_CALIBRATE	0x05
+#define		TI_STORE			0x06
 
