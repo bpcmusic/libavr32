@@ -72,6 +72,7 @@
 #define		TO_KILL				0x19
 
 #define		TO_CV_QT			0x20
+#define		TO_CV_QMODE			0x21
 
 /*
 #define		TO_MIN		0x1A
