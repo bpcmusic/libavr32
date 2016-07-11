@@ -74,6 +74,8 @@
 #define		TO_CV_QT			0x20
 #define		TO_CV_QMODE			0x21
 
+#define		TO_TR_FORMAT		0x22
+
 /*
 #define		TO_MIN		0x1A
 #define		TO_MAX		0x1B
