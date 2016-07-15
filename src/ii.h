@@ -57,35 +57,37 @@
 
 #define 	TO					0x60
 
-#define 	TO_TR				0x10
-#define 	TO_TR_TOG			0x11
-#define 	TO_TR_TIME			0x12
-#define 	TO_TR_PULSE			0x13
+#define 	TO_TR				0x01
+#define 	TO_TR_TOG			0x02
+#define 	TO_TR_TIME			0x03
+#define 	TO_TR_PULSE			0x04
 
-#define 	TO_CV				0x14
-#define 	TO_CV_SLEW			0x15
-#define 	TO_CV_SET			0x16
-#define 	TO_CV_OFF			0x17
+#define 	TO_CV				0x05
+#define 	TO_CV_SLEW			0x06
+#define 	TO_CV_SET			0x07
+#define 	TO_CV_OFF			0x08
 
-#define		TO_TR_POL			0x18
+#define		TO_TR_POL			0x09
 
-#define		TO_KILL				0x19
+#define		TO_KILL				0x10
 
-#define		TO_CV_QT			0x20
-#define		TO_CV_QMODE			0x21
+#define		TO_CV_QT			0x11
+#define		TO_CV_QT_SET		0x12
+#define		TO_CV_NN			0x13
+#define		TO_CV_NN_SET		0x14
+#define		TO_CV_SCALE			0x15
 
-#define		TO_TR_FORMAT		0x22
-#define		TO_CV_FORMAT		0x23
+#define		TO_TR_FORMAT		0x16
+#define		TO_CV_FORMAT		0x17
+
+#define		TO_CV_FREQ			0x18
+#define		TO_CV_WAVE			0x19
+#define		TO_CV_SYMM			0x20
+#define		TO_CV_SHAPE			0x21
 
 /*
-#define		TO_MIN		0x1A
-#define		TO_MAX		0x1B
-#define		TO_FREQ		0x1C
-#define		TO_PERIOD	0x1D
 #define		TO_CYCLE	0x1E
 #define		TO_RESET	0x1F
-#define		TO_WAVE		0x20
-#define		TO_SHAPE	0x21
 #define		TO_ENV		0x22
 */
 
@@ -94,12 +96,15 @@
 #define 	TI					0x61
 
 #define		TI_IN_QT			0x00
-#define		TI_IN_QMODE			0x01
-#define		TI_PARAM_QT			0x02
-#define		TI_PARAM_QMODE		0x03
+#define		TI_IN_NN			0x01
+#define		TI_IN_SCALE			0x02
 
-#define		TI_IN_CALIBRATE		0x04
-#define		TI_PARAM_CALIBRATE	0x05
-#define		TI_STORE			0x06
-#define		TI_RESET			0x07
+#define		TI_PARAM_QT			0x03
+#define		TI_PARAM_NN			0x04
+#define		TI_PARAM_SCALE		0x05
+
+#define		TI_IN_CALIBRATE		0x06
+#define		TI_PARAM_CALIBRATE	0x07
+#define		TI_STORE			0x08
+#define		TI_RESET			0x09
 
