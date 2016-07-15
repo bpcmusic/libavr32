@@ -55,7 +55,14 @@
 
 // TELEX_O
 
-#define 	TO					0x60
+#define 	TO_1				0x60
+#define 	TO_2				0x61
+#define 	TO_3				0x62
+#define 	TO_4				0x63
+#define 	TO_5				0x64
+#define 	TO_6				0x65
+#define 	TO_7				0x66
+#define 	TO_8				0x67
 
 #define 	TO_TR				0x01
 #define 	TO_TR_TOG			0x02
@@ -69,21 +76,21 @@
 
 #define		TO_TR_POL			0x09
 
-#define		TO_KILL				0x10
+#define		TO_KILL				0x0A
 
-#define		TO_CV_QT			0x11
-#define		TO_CV_QT_SET		0x12
-#define		TO_CV_NN			0x13
-#define		TO_CV_NN_SET		0x14
-#define		TO_CV_SCALE			0x15
+#define		TO_CV_QT			0x0B
+#define		TO_CV_QT_SET		0x0C
+#define		TO_CV_NN			0x0D
+#define		TO_CV_NN_SET		0x0E
+#define		TO_CV_SCALE			0x0F
 
-#define		TO_TR_FORMAT		0x16
-#define		TO_CV_FORMAT		0x17
+#define		TO_TR_FORMAT		0x10
+#define		TO_CV_FORMAT		0x11
 
-#define		TO_CV_FREQ			0x18
-#define		TO_CV_WAVE			0x19
-#define		TO_CV_SYMM			0x20
-#define		TO_CV_SHAPE			0x21
+#define		TO_CV_FREQ			0x12
+#define		TO_CV_WAVE			0x13
+#define		TO_CV_SYMM			0x14
+#define		TO_CV_SHAPE			0x15
 
 /*
 #define		TO_CYCLE	0x1E
@@ -93,7 +100,14 @@
 
 // TELEXi
 
-#define 	TI					0x61
+#define 	TI_1				0x68
+#define 	TI_2				0x69
+#define 	TI_3				0x6A
+#define 	TI_4				0x6B
+#define 	TI_5				0x6C
+#define 	TI_6				0x6D
+#define 	TI_7				0x6E
+#define 	TI_8				0x6F
 
 #define		TI_IN_QT			0x00
 #define		TI_IN_NN			0x01
