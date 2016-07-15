@@ -55,6 +55,7 @@
 
 // TELEX_O
 
+#define		TO 					0x60
 #define 	TO_1				0x60
 #define 	TO_2				0x61
 #define 	TO_3				0x62
@@ -100,6 +101,7 @@
 
 // TELEXi
 
+#define		TI 					0x68
 #define 	TI_1				0x68
 #define 	TI_2				0x69
 #define 	TI_3				0x6A
