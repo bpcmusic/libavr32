@@ -55,72 +55,72 @@
 
 // TELEX_O
 
-#define		TO 					0x60
-#define 	TO_1				0x60
-#define 	TO_2				0x61
-#define 	TO_3				0x62
-#define 	TO_4				0x63
-#define 	TO_5				0x64
-#define 	TO_6				0x65
-#define 	TO_7				0x66
-#define 	TO_8				0x67
+#define   TO          			0x60
+#define   TO_0        			0x60
+#define   TO_1        			0x61
+#define   TO_2 	       			0x62
+#define   TO_3  	    		0x63
+#define   TO_4      			0x64
+#define   TO_5        			0x65
+#define   TO_6        			0x66
+#define   TO_7        			0x67
 
-#define 	TO_TR				0x01
-#define 	TO_TR_TOG			0x02
-#define 	TO_TR_TIME			0x03
-#define 	TO_TR_PULSE			0x04
+#define   TO_TR       			0x00
+#define   TO_TR_TOG   			0x01
+#define   TO_TR_TIME  			0x02
+#define   TO_TR_PULSE 			0x03
 
-#define 	TO_CV				0x05
-#define 	TO_CV_SLEW			0x06
-#define 	TO_CV_SET			0x07
-#define 	TO_CV_OFF			0x08
+#define   TO_CV       			0x04
+#define   TO_CV_SLEW    		0x05
+#define   TO_CV_SET     		0x06
+#define   TO_CV_OFF     		0x07
 
-#define		TO_TR_POL			0x09
+#define   TO_TR_POL     		0x08
 
-#define		TO_KILL				0x0A
+#define   TO_KILL       		0x09
 
-#define		TO_CV_QT			0x0B
-#define		TO_CV_QT_SET		0x0C
-#define		TO_CV_NN			0x0D
-#define		TO_CV_NN_SET		0x0E
-#define		TO_CV_SCALE			0x0F
+#define   TO_CV_QT      		0x0A
+#define   TO_CV_QT_SET  		0x0B
+#define   TO_CV_NN      		0x0C
+#define   TO_CV_NN_SET  		0x0D
+#define   TO_CV_SCALE   		0x0E
 
-#define		TO_TR_FORMAT		0x10
-#define		TO_CV_FORMAT		0x11
+#define   TO_TR_FORMAT  		0x0F
+#define   TO_CV_FORMAT  		0x10
 
-#define		TO_CV_FREQ			0x12
-#define		TO_CV_WAVE			0x13
-#define		TO_CV_SYMM			0x14
-#define		TO_CV_SHAPE			0x15
+#define   TO_CV_FREQ    		0x11
+#define   TO_CV_WAVE    		0x12
+#define   TO_CV_SYMM    		0x13
+#define   TO_CV_SHAPE   		0x14
 
 /*
-#define		TO_CYCLE	0x1E
-#define		TO_RESET	0x1F
-#define		TO_ENV		0x22
+#define   TO_CYCLE  0x1E
+#define   TO_RESET  0x1F
+#define   TO_ENV    0x22
 */
 
 // TELEXi
 
-#define		TI 					0x68
-#define 	TI_1				0x68
-#define 	TI_2				0x69
-#define 	TI_3				0x6A
-#define 	TI_4				0x6B
-#define 	TI_5				0x6C
-#define 	TI_6				0x6D
-#define 	TI_7				0x6E
-#define 	TI_8				0x6F
+#define   TI          			0x68
+#define   TI_0        			0x68
+#define   TI_1        			0x69
+#define   TI_2        			0x6A
+#define   TI_3        			0x6B
+#define   TI_4        			0x6C
+#define   TI_5        			0x6D
+#define   TI_6        			0x6E
+#define   TI_7        			0x6F
 
-#define		TI_IN_QT			0x00
-#define		TI_IN_NN			0x01
-#define		TI_IN_SCALE			0x02
+#define   TI_IN_QT      		0x00
+#define   TI_IN_NN      		0x01
+#define   TI_IN_SCALE   		0x02
 
-#define		TI_PARAM_QT			0x03
-#define		TI_PARAM_NN			0x04
-#define		TI_PARAM_SCALE		0x05
+#define   TI_PARAM_QT   		0x03
+#define   TI_PARAM_NN   		0x04
+#define   TI_PARAM_SCALE		0x05
 
-#define		TI_IN_CALIBRATE		0x06
-#define		TI_PARAM_CALIBRATE	0x07
-#define		TI_STORE			0x08
-#define		TI_RESET			0x09
+#define   TI_IN_CALIBRATE  		0x06
+#define   TI_PARAM_CALIBRATE  	0x07
+#define   TI_STORE      		0x08
+#define   TI_RESET      		0x09
 
