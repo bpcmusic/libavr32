@@ -89,14 +89,17 @@
 #define   TO_CV_FORMAT  		0x10
 
 #define   TO_CV_FREQ    		0x11
-#define   TO_CV_WAVE    		0x12
-#define   TO_CV_SYMM    		0x13
-#define   TO_CV_SHAPE   		0x14
+#define   TO_CV_LFO	    		0x12
+#define   TO_CV_WAVE    		0x13
+#define	  TO_CV_TRIG			0x14
+#define	  TO_CV_CYCLE			0x15
 
 /*
 #define   TO_CYCLE  0x1E
 #define   TO_RESET  0x1F
 #define   TO_ENV    0x22
+#define   TO_CV_SYMM    		0x13
+#define   TO_CV_SHAPE   		0x14
 */
 
 // TELEXi
