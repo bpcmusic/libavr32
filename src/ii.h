@@ -98,7 +98,7 @@
 
 #define   TO_CV_ENV    			0x18
 #define	  TO_CV_ATT				0x19
-#define	  TO_CV_REL				0x20
+#define	  TO_CV_DEC				0x20
 #define   TO_CV_TRIG        	0x21
 
 
