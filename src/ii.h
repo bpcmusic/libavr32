@@ -92,7 +92,8 @@
 #define   TO_CV_LFO	    		0x12
 #define   TO_CV_WAVE    		0x13
 #define	  TO_CV_TRIG			0x14
-#define	  TO_CV_CYCLE			0x15
+#define	  TO_CV_WIDTH			0x15
+#define   TO_CV_RECT        	0x16
 
 /*
 #define   TO_CYCLE  0x1E
