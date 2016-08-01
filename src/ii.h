@@ -88,19 +88,20 @@
 #define   TO_TR_FORMAT  		0x0F
 #define   TO_CV_FORMAT  		0x10
 
-#define   TO_CV_FQ    			0x11
-#define   TO_CV_FQ_SET    		0x12
-#define   TO_CV_LFO	    		0x13
-#define   TO_CV_WAVE    		0x14
-#define	  TO_CV_SYNC			0x15
-#define	  TO_CV_WIDTH			0x16
-#define   TO_CV_RECT        	0x17
-#define   TO_CV_FSLEW        	0x18
+#define   TO_CV_FQ          	0x11
+#define   TO_CV_FQ_SET      	0x12
+#define   TO_CV_LFO         	0x13
+#define   TO_CV_LFO_SET     	0x14
+#define   TO_CV_WAVE        	0x15
+#define   TO_CV_SYNC        	0x16
+#define   TO_CV_WIDTH       	0x17
+#define   TO_CV_RECT        	0x18
+#define   TO_CV_FSLEW       	0x19
 
-#define   TO_CV_ENV    			0x19
-#define	  TO_CV_ATT				0x20
-#define	  TO_CV_DEC				0x21
-#define   TO_CV_TRIG        	0x22
+#define   TO_CV_ENV         	0x20
+#define   TO_CV_ATT         	0x21
+#define   TO_CV_DEC         	0x22
+#define   TO_CV_TRIG        	0x23
 
 
 // TELEXi
