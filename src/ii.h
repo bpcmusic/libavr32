@@ -105,7 +105,7 @@
 #define   TO_OSC_SLEW       	0x1D
 #define   TO_OSC_SCALE       	0x1E
 
-#define   TO_ENV  		       	0x1F
+#define   TO_ENV_ACT	       	0x1F
 #define   TO_ENV_ATT         	0x20
 #define   TO_ENV_DEC         	0x21
 #define   TO_ENV_TRIG        	0x22
