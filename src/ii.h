@@ -53,7 +53,7 @@
 #define ORCA_CVA		0x4E
 #define ORCA_CVB		0x4F
 
-// TELEX_O
+// TELEXo
 
 #define   TO          			0x60
 #define   TO_0        			0x60
@@ -64,6 +64,8 @@
 #define   TO_5        			0x65
 #define   TO_6        			0x66
 #define   TO_7        			0x67
+
+// TXo Commands
 
 #define   TO_TR       			0x00
 #define   TO_TR_TOG   			0x01
@@ -83,25 +85,30 @@
 #define   TO_CV_QT_SET  		0x0B
 #define   TO_CV_NN      		0x0C
 #define   TO_CV_NN_SET  		0x0D
-#define   TO_CV_SCALE   		0x0E
+#define   TO_CV_SCALE			0x0E
 
 #define   TO_TR_FORMAT  		0x0F
 #define   TO_CV_FORMAT  		0x10
 
-#define   TO_CV_FQ          	0x11
-#define   TO_CV_FQ_SET      	0x12
-#define   TO_CV_LFO         	0x13
-#define   TO_CV_LFO_SET     	0x14
-#define   TO_CV_WAVE        	0x15
-#define   TO_CV_SYNC        	0x16
-#define   TO_CV_WIDTH       	0x17
-#define   TO_CV_RECT        	0x18
-#define   TO_CV_FSLEW       	0x19
+#define   TO_OSC 	        	0x11
+#define   TO_OSC_SET          	0x12
+#define   TO_OSC_FQ          	0x13
+#define   TO_OSC_FQ_SET      	0x14
+#define   TO_OSC_NN          	0x15
+#define   TO_OSC_NN_SET      	0x16
+#define   TO_OSC_LFO         	0x17
+#define   TO_OSC_LFO_SET     	0x18
+#define   TO_OSC_WAVE        	0x19
+#define   TO_OSC_SYNC        	0x1A
+#define   TO_OSC_WIDTH       	0x1B
+#define   TO_OSC_RECT        	0x1C
+#define   TO_OSC_SLEW       	0x1D
+#define   TO_OSC_SCALE       	0x1E
 
-#define   TO_CV_ENV         	0x20
-#define   TO_CV_ATT         	0x21
-#define   TO_CV_DEC         	0x22
-#define   TO_CV_TRIG        	0x23
+#define   TO_ENV  		       	0x1F
+#define   TO_ENV_ATT         	0x20
+#define   TO_ENV_DEC         	0x21
+#define   TO_ENV_TRIG        	0x22
 
 
 // TELEXi
@@ -115,6 +122,8 @@
 #define   TI_5        			0x6D
 #define   TI_6        			0x6E
 #define   TI_7        			0x6F
+
+// TXi Commands
 
 #define   TI_IN_QT      		0x00
 #define   TI_IN_NN      		0x01
