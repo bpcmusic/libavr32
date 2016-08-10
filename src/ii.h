@@ -83,8 +83,8 @@
 
 #define   TO_CV_QT      		0x0A
 #define   TO_CV_QT_SET  		0x0B
-#define   TO_CV_NN      		0x0C
-#define   TO_CV_NN_SET  		0x0D
+#define   TO_CV_N       		0x0C
+#define   TO_CV_N_SET   		0x0D
 #define   TO_CV_SCALE			0x0E
 
 #define   TO_TR_FORMAT  		0x0F
@@ -92,23 +92,25 @@
 
 #define   TO_OSC 	        	0x11
 #define   TO_OSC_SET          	0x12
-#define   TO_OSC_FQ          	0x13
-#define   TO_OSC_FQ_SET      	0x14
-#define   TO_OSC_NN          	0x15
-#define   TO_OSC_NN_SET      	0x16
-#define   TO_OSC_LFO         	0x17
-#define   TO_OSC_LFO_SET     	0x18
-#define   TO_OSC_WAVE        	0x19
-#define   TO_OSC_SYNC        	0x1A
-#define   TO_OSC_WIDTH       	0x1B
-#define   TO_OSC_RECT        	0x1C
-#define   TO_OSC_SLEW       	0x1D
-#define   TO_OSC_SCALE       	0x1E
+#define   TO_OSC_QT         	0x13
+#define   TO_OSC_QT_SET        	0x14
+#define   TO_OSC_FQ          	0x15
+#define   TO_OSC_FQ_SET      	0x16
+#define   TO_OSC_N          	0x17
+#define   TO_OSC_N_SET      	0x18
+#define   TO_OSC_LFO         	0x19
+#define   TO_OSC_LFO_SET     	0x1A
+#define   TO_OSC_WAVE        	0x1B
+#define   TO_OSC_SYNC        	0x1C
+#define   TO_OSC_WIDTH       	0x1D
+#define   TO_OSC_RECT        	0x1E
+#define   TO_OSC_SLEW       	0x1F
+#define   TO_OSC_SCALE       	0x20
 
-#define   TO_ENV_ACT	       	0x1F
-#define   TO_ENV_ATT         	0x20
-#define   TO_ENV_DEC         	0x21
-#define   TO_ENV_TRIG        	0x22
+#define   TO_ENV_ACT	       	0x21
+#define   TO_ENV_ATT         	0x22
+#define   TO_ENV_DEC         	0x23
+#define   TO_ENV_TRIG        	0x24
 
 
 // TELEXi
