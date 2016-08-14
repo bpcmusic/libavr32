@@ -78,10 +78,10 @@
 #define	  TO_TR_M_ACT			0x08
 
 #define   TO_CV       			0x10
-#define   TO_CV_SLEW    		0x11
-#define   TO_CV_SLEWS  			0x12
-#define   TO_CV_SLEWM  			0x13
-#define   TO_CV_SET     		0x14
+#define   TO_CV_SET     		0x11
+#define   TO_CV_SLEW    		0x12
+#define   TO_CV_SLEWS  			0x13
+#define   TO_CV_SLEWM  			0x14
 #define   TO_CV_OFF     		0x15
 
 #define   TO_KILL       		0x20
